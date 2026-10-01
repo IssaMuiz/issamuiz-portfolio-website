@@ -78,16 +78,39 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Issa Muiz — AI Automation Engineer" },
+      {
+        name: "description",
+        content:
+          "AI Automation Engineer building AI-powered systems that automate repetitive work, improve customer operations, and help businesses work more efficiently.",
+      },
+      { name: "author", content: "Issa Muiz" },
+      { property: "og:title", content: "Issa Muiz — AI Automation Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Building AI-powered systems that automate repetitive work and improve business operations.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Issa Muiz — AI Automation Engineer" },
+      {
+        name: "twitter:description",
+        content:
+          "Building AI-powered systems that automate repetitive work and improve business operations.",
+      },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
